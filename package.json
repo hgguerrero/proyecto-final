@@ -1,0 +1,21 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "API para gestión de productos con Firebase",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "firebase",
+    "express"
+  ],
+  "author": "Hernan Guerrero",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
