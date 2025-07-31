@@ -20,4 +20,9 @@ export const login = async (req, res, next) => {
   } catch (error) {
     next(error);
   }
+  try {
+  const docRef = await addDoc(collection(db, "products"), data);
+} catch (error) {
+  console.error("Firestore error details:", error.message);
+}
 };

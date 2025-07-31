@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use('/auth', authRoutes);
-app.use('/api', productsRoutes);
+app.use('/products', productsRoutes);
 
 app.use(notFoundHandler);
 app.use(errorHandler);
